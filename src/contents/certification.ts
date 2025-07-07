@@ -20,7 +20,7 @@ export const certifications: Certification[] = [
     {
         id: 3,
         title: "Belajar Dasar Pemrograman Web",
-        description: "Belajar Pemrograman web dasar dengan HTML,CSS di situs Dicoding",
+        description: "Belajar Pemrograman web dasar dengan HTML, CSS di situs Dicoding",
         issuer: "Dicoding",
         image: "/certifications/dicoding1.png",
         link: "https://drive.google.com/file/d/1mTiZudokYzws3YRQVi9THCYC7Okn3vHx/view?usp=sharing",
