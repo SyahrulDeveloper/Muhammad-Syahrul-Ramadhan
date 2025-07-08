@@ -29,8 +29,8 @@ export const projects: Project[] = [
         title: "My Portfolio",
         description: "Ini website portfolio saya, yang mencakup informasi terkait keahlian, projects, dan informasi lainnya.",
         technologies: ["Next.js", "TailwindCSS", "Framer Motion"],
-        githubLink: "https://github.com",
-        demoLink: "https://demo.com",
+        githubLink: "https://github.com/SyahrulDeveloper/Muhammad-Syahrul-Ramadhan",
+        demoLink: "https://syahrulfolio.vercel.app/",
         image: "/projects/syahrul-portfolio.png",
     },
 ];

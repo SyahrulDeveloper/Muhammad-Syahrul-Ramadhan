@@ -23,15 +23,15 @@ const Hero = () => {
                 </motion.p>
 
                 <motion.div {...fadeInUp} transition={{ delay: 0.5 }} className="flex justify-center space-x-4 mb-8">
-                    <Link href="https://github.com/SyahrulDeveloper" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
+                    <Link href="https://github.com/SyahrulDeveloper" target="_blank" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
                         <FaGithub />
                     </Link>
 
-                    <Link href="https://www.linkedin.com/in/muhammad-syahrul-ramadhan-987b8b28b/" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
+                    <Link href="https://www.linkedin.com/in/muhammad-syahrul-ramadhan-987b8b28b/" target="_blank" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
                         <FaLinkedin />
                     </Link>
 
-                    <Link href="https://www.instagram.com/syahrulramadhan.24/" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
+                    <Link href="https://www.instagram.com/syahrulramadhan.24/" target="_blank" className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300">
                         <FaInstagram />
                     </Link>
                 </motion.div>
