@@ -37,7 +37,11 @@ const Hero = () => {
                 </motion.div>
 
                 <motion.div {...fadeInUp} transition={{ delay: 0.5 }} className="flex flex-col md:flex-row justify-center gap-4">
-                    <Link href="https://drive.google.com/file/d/16JD6btnLCWguANnkmLjCTghfsw0XxX7R/view?usp=sharing" className="rounded-lg bg-primary px-8 py-3 inline-block w-full md:w-auto text-white hover:bg-primary/80 transition-colors">
+                    <Link
+                        href="https://drive.google.com/file/d/16JD6btnLCWguANnkmLjCTghfsw0XxX7R/view?usp=sharing"
+                        target="_blank"
+                        className="rounded-lg bg-primary px-8 py-3 inline-block w-full md:w-auto text-white hover:bg-primary/80 transition-colors"
+                    >
                         Download CV
                     </Link>
                     <Link href="/contact" className="rounded-lg bg-gray-500 px-8 py-3 inline-block w-full md:w-auto text-white hover:text-gray-800 hover:bg-gray-300 transition-colors">
