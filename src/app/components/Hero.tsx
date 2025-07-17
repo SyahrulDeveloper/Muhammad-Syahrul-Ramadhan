@@ -38,7 +38,7 @@ const Hero = () => {
 
                 <motion.div {...fadeInUp} transition={{ delay: 0.5 }} className="flex flex-col md:flex-row justify-center gap-4">
                     <Link
-                        href="https://drive.google.com/file/d/16JD6btnLCWguANnkmLjCTghfsw0XxX7R/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1Leg4Y8VjV5V54qu4SBQq7r-lAL5ZDHNc/view?usp=sharing"
                         target="_blank"
                         className="rounded-lg bg-primary px-8 py-3 inline-block w-full md:w-auto text-white hover:bg-primary/80 transition-colors"
                     >
